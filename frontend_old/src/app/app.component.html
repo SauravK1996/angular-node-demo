@@ -1,7 +1,0 @@
-<div class="form-group">
-  <label for="file">Choose File</label>
-  <input type="file" id="file" name="file" (change)="onFileChange($event)" />
-</div>
-<ul *ngFor="let file of filelist">
-  <li>{{ file.name }} -------------- {{ file.size }}</li>
-</ul>
